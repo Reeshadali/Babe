@@ -1,7 +1,7 @@
 // script.js
 
 // CHANGE PASSWORD HERE
-const correctPassword = "12";
+const correctPassword = "Babymalka";
 
 function checkPassword(){
 
