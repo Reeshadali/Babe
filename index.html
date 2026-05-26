@@ -1,0 +1,166 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gift For My Love ❤️</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- PASSWORD SCREEN -->
+  <div class="login-screen" id="loginScreen">
+    <div class="login-box">
+      <h1>❤️ Secret Gift ❤️</h1>
+      <p>Enter the special password</p>
+
+      <!-- CHANGE PASSWORD HERE -->
+      <input type="password" id="passwordInput" placeholder="Enter password">
+      <button onclick="checkPassword()">Open Gift 🎁</button>
+
+      <p class="error" id="errorText">Wrong Password 💔</p>
+    </div>
+  </div>
+
+  <!-- MAIN WEBSITE -->
+  <div class="main-site hidden" id="mainSite">
+
+    <div class="hero">
+      <h1>For My Bhirthday Girl ❤️</h1>
+      <p>You are the best thing in my life ✨</p>
+    </div>
+
+    <!-- GIFTS SECTION -->
+    <div class="gift-container">
+
+      <!-- GIFT 1 -->
+      <div class="gift-box" onclick="openPopup('photoPopup')">
+        🎁
+        <span>Photos</span>
+      </div>
+
+      <!-- GIFT 2 -->
+      <div class="gift-box" onclick="openPopup('notePopup')">
+        💌
+        <span>Love Notes</span>
+      </div>
+
+      <!-- GIFT 3 -->
+      <div class="gift-box" onclick="openPopup('wishPopup')">
+        🌸
+        <span>Wishes</span>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- PHOTO POPUP -->
+  <div class="popup" id="photoPopup">
+    <div class="popup-content">
+      <span class="close" onclick="closePopup('photoPopup')">×</span>
+      <h2>Our Cute Memories 📸</h2>
+
+      <!-- ADD YOUR PHOTOS -->
+      <div class="photo-grid">
+  <img src="1 (1).jpg" alt="Photo 1">
+  <img src="1 (3).jpg" alt="Photo 2">
+</div>
+  </div>
+
+  <!-- NOTES POPUP -->
+  <div class="popup" id="notePopup">
+    <div class="popup-content">
+      <span class="close" onclick="closePopup('notePopup')">×</span>
+      <h2>Love Notes 💌</h2>
+
+      <div class="note">
+        "You make my life beautiful ❤️"
+        </div>
+        <div class="note">
+        "Every moment with you is a treasure ✨"
+      "</div>
+     
+
+      <div class="note">
+        "Every moment in That Pic with you feels magical ✨"
+ </div>
+ <div class="note">
+ "I am so lucky to have you in my life 💖"
+ </div>
+        <div class="note">
+          "I can't wait to create more memories with you 💖"
+        </div>
+        <div class="note">
+        "You are the reason for my happiness 🌸"
+        </div>
+     <div class="note">
+        "I am grateful for every moment we share together 💕"
+     </div>
+<div class="note">
+"You are my forever and always 💖"
+</div>
+<div class="note">
+"You are the most beautiful person inside and out 🌹"
+</div>
+<div class="note">
+"Being with you feels like a dream come true ✨"
+</div>
+<div class="note">
+"You are my best friend and soulmate 💕"
+</div>
+<div class="note">
+"I am so lucky to have you in my life 💖"
+</div>
+<div class="note">
+"You make my heart skip a beat every time I see you 💓"
+</div>
+<div class="note">
+"You are the light that brightens my darkest days 🌟"
+</div>
+<div class="note">
+"I am grateful for every moment we share together 💕"
+</div>
+<div class="note">
+"You are my forever and always 💖"
+</div>
+<div class="note">
+"You are the most beautiful person inside and out 🌹"
+</div>
+<div class="note">
+"Being with you feels like a dream come true ✨"
+</div>
+
+      <div class="note">
+        "I love you Meri Bachi💕💕💕"
+        </div>
+        <div class="note">
+        "You are my sunshine on a cloudy day ☀️"
+      </div>
+    </div>
+  </div>
+
+  <!-- WISH POPUP -->
+  <div class="popup" id="wishPopup">
+    <div class="popup-content">
+      <span class="close" onclick="closePopup('wishPopup')">×</span>
+      <h2>Special Wishes 🌸</h2>
+
+      <ul>
+        <li>May your smile never fade ❤️</li>
+        <li>May your dreams come true ✨</li>
+        <li>May our love grow stronger every day 💖</li>
+         <li>May we create beautiful memories together 🌹</li>
+         <li>May you always be happy and loved 💕</li>
+         <li>Always Be My Good Girl</li>
+        <li> I lOVE YOU SOOO SOO SOOO MUCH BABY GIRL❤️❤️❤️</li>
+      </ul>
+    </div>
+  </div>
+
+<script src="script.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+</body>
+</html>
